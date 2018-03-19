@@ -42,7 +42,7 @@ input:focus {
 }
 
 img{
-  margin: 10px;
+  margin: 15px;
 
 }
 
@@ -78,4 +78,7 @@ form {
   }
 
 }
+
+.lb-data .lb-details {
+  text-align: center;
 }
