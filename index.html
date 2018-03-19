@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>Project 4 - Photo Gallery</title>
 		<link rel="stylesheet" href="css/normalize.css">
-		<link href="../js/lightbox.css" rel="stylesheet">
+		<link href="project-4-photo-gallery/js/lightbox.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
 	</head>
@@ -19,53 +19,53 @@
 
 				<div class="img-wrapper flex-container">
 
-					<a class="flex-child link-pic" href="photos/01.jpg" data-lightbox="photos" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-						<img src="photos/thumbnails/01.jpg" alt="photo of Hay Bales">
+					<a class="flex-child link-pic" href="photo_gallery_v3/photos/01.jpg" data-lightbox="photos" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+						<img src="photo_gallery_v3/photos/thumbnails/01.jpg" alt="photo of Hay Bales">
 					</a>
 
-					<a class="flex-child" href="photos/02.jpg" data-lightbox="photos" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
-						<img src="photos/thumbnails/02.jpg" alt="photo of Lake">
+					<a class="flex-child" href="photo_gallery_v3/photos/02.jpg" data-lightbox="photos" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+						<img src="photo_gallery_v3/photos/thumbnails/02.jpg" alt="photo of Lake">
 					</a>
 
-					<a <a class="flex-child" href="photos/03.jpg" data-lightbox="photos" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
-						<img src="photos/thumbnails/03.jpg" alt="photo of Canyon">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/03.jpg" data-lightbox="photos" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+						<img src="photo_gallery_v3/photos/thumbnails/03.jpg" alt="photo of Canyon">
 					</a>
 
-					<a <a class="flex-child" href="photos/04.jpg">
-						<img src="photos/thumbnails/04.jpg" alt="photo of Iceberg">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/04.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/04.jpg" alt="photo of Iceberg">
 					</a>
 
-					<a <a class="flex-child" href="photos/05.jpg">
-						<img src="photos/thumbnails/05.jpg" alt="photo of Desert">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/05.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/05.jpg" alt="photo of Desert">
 					</a>
 
-					<a <a class="flex-child" href="photos/06.jpg">
-						<img src="photos/thumbnails/06.jpg" alt="photo of Fall">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/06.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/06.jpg" alt="photo of Fall">
 					</a>
 
-					<a <a class="flex-child" href="photos/07.jpg">
-						<img src="photos/thumbnails/07.jpg" alt="photo of Plantation">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/07.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/07.jpg" alt="photo of Plantation">
 					</a>
 
-					<a <a class="flex-child" href="photos/08.jpg">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/08.jpg">
 
-						<img src="photos/thumbnails/08.jpg" alt="photo of Dunes">
+						<img src="photo_gallery_v3/photos/thumbnails/08.jpg" alt="photo of Dunes">
 					</a>
 
-					<a <a class="flex-child" href="photos/09.jpg">
-						<img src="photos/thumbnails/09.jpg" alt="photo of Countryside Lane">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/09.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/09.jpg" alt="photo of Countryside Lane">
 					</a>
 
-					<a <a class="flex-child" href="photos/10.jpg">
-						<img src="photos/thumbnails/10.jpg" alt="photo of Sunset">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/10.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/10.jpg" alt="photo of Sunset">
 					</a>
 
-					<a <a class="flex-child" href="photos/11.jpg">
-						<img src="photos/thumbnails/11.jpg" alt="photo of Cave">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/11.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/11.jpg" alt="photo of Cave">
 					</a>
 
-					<a <a class="flex-child" href="photos/12.jpg">
-						<img src="photos/thumbnails/12.jpg" alt="photo of Bluebells">
+					<a <a class="flex-child" href="photo_gallery_v3/photos/12.jpg">
+						<img src="photo_gallery_v3/photos/thumbnails/12.jpg" alt="photo of Bluebells">
 					</a>
 
 				</div>
@@ -75,6 +75,12 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous">
 </script>
-<script src="../photo_gallery_v3/js/lightbox.js"></script>
+<script src="project-4-photo-gallery/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    });
+</script>
 </body>
 </html>
