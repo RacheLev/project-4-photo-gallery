@@ -1,19 +1,25 @@
+/*************************
+     global layout
+ ************************/
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0 auto;
   padding: 0;
-
-  /* font-family: 'Lora', serif; */
-  /* background-color: #faf0e6; */
+  margin: 0 auto;
   background-image: url("http://www.modafinilsale.com/data/out/17/232806643-background-textures.jpg");
   text-align: center;
-
-
 }
 
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*************************
+     input styling
+ ************************/
 input {
   width: 80%;
   height: 2.5em;
@@ -24,7 +30,6 @@ input {
   background-color: #F8F9F9;
   outline: none;
   text-align: left;
-
 }
 
 input:focus {
@@ -32,36 +37,35 @@ input:focus {
      font-family: 'PT Sans', sans-serif;
      font-size: 1em;
      color: #717D7E;
-
 }
+
+ form {
+   margin-top: 40px;
+ }
 
 ::placeholder {
     color: #BDC3C7;
     opacity: 1; /* Firefox */
     font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
 }
 
+/*************************
+     image styling
+ ************************/
 img{
   margin: 15px;
-
+  border-radius: 5px;
 }
 
-main{
-  width: 90%;
-  margin: 0 auto;
-
-}
-
-form {
-  margin-top: 40px;
-}
 .img-wrapper {
   margin-top: 40px;
 }
 
-
+/*************************
+     media query
+ ************************/
 @media screen and (min-width:400px) {
-
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -69,6 +73,8 @@ form {
     justify-content: space-between;
     justify-content: center;
   }
+  input {
+    width: 50%;
 }
 
 @media screen and (min-width:1024px) {
@@ -76,10 +82,21 @@ form {
     max-width: 1024px;
     margin: 0 auto;
   }
-
 }
 
+/*************************
+     lightbox styling
+ ************************/
 .lb-data .lb-details {
   width: 96%;
   text-align: center;
+  margin-top: .8em;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: .5px;
+}
+.lb-data .lb-caption {
+  font-size: 1.1em;
+  }
+  .lb-image {
+  transition: .5s;
 }
