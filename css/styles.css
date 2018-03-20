@@ -65,8 +65,9 @@ img{
 /*************************
      media query
  ************************/
-@media screen and (min-width:400px) {
-  .flex-container {
+@media screen and (min-width:500px) {
+  .flex-container,
+  .flex-child { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -88,7 +89,7 @@ img{
      lightbox styling
  ************************/
 .lb-data .lb-details {
-  width: 96%;
+  /* width: 96%; */
   text-align: center;
   margin-top: .8em;
   font-family: 'PT Sans', sans-serif;
