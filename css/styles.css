@@ -80,5 +80,6 @@ form {
 }
 
 .lb-data .lb-details {
+  width: 96%;
   text-align: center;
 }
