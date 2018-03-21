@@ -10,11 +10,7 @@ body {
   margin: 0 auto;
   background-image: url("http://www.modafinilsale.com/data/out/17/232806643-background-textures.jpg");
   text-align: center;
-}
-
-main {
   width: 90%;
-  margin: 0 auto;
 }
 
 /*************************
@@ -53,7 +49,7 @@ input:focus {
 /*************************
      image styling
  ************************/
-img{
+a img{
   margin: 15px;
   border-radius: 5px;
 }
@@ -67,7 +63,7 @@ img{
  ************************/
 @media screen and (min-width:500px) {
   .flex-container,
-  .flex-child { 
+  .flex-child {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -89,7 +85,7 @@ img{
      lightbox styling
  ************************/
 .lb-data .lb-details {
-  /* width: 96%; */
+  width: 96%;
   text-align: center;
   margin-top: .8em;
   font-family: 'PT Sans', sans-serif;
