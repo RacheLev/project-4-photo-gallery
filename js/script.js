@@ -1,0 +1,4 @@
+$("#myInput").on("keyup", function() {
+  
+
+});​
