@@ -29,21 +29,21 @@ input {
 }
 
 input:focus {
-    border: 2px solid #A6ACAF;
-     font-family: 'PT Sans', sans-serif;
-     font-size: 1em;
-     color: #717D7E;
+  border: 2px solid #A6ACAF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  color: #717D7E;
 }
 
 ::placeholder {
-    color: #BDC3C7;
-    opacity: 1; /* Firefox */
-    font-family: 'PT Sans', sans-serif;
-    letter-spacing: 1px;
+  color: #BDC3C7;
+  opacity: 1; /* Firefox */
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
  form {
-   margin-top: 40px;
+  margin-top: 40px;
  }
 
  /*************************
@@ -83,6 +83,7 @@ a img{
 
   input {
     width: 50%;
+  }
 }
 
 @media screen and (min-width:1024px) {
