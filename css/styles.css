@@ -34,6 +34,12 @@ input:focus {
      font-size: 1em;
      color: #717D7E;
 }
+::placeholder {
+    color: #BDC3C7;
+    opacity: 1; /* Firefox */
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+}
 
  form {
    margin-top: 40px;
@@ -41,13 +47,9 @@ input:focus {
  #myUL {
    list-style-type: none;
  }
-
-::placeholder {
-    color: #BDC3C7;
-    opacity: 1; /* Firefox */
-    font-family: 'PT Sans', sans-serif;
-    letter-spacing: 1px;
-}
+ ul {
+   padding: 0;
+ }
 
 /*************************
      image styling
@@ -60,9 +62,7 @@ a img{
 .img-wrapper {
   margin-top: 45px;
 }
-ul {
-  padding: 0;
-}
+
 /*************************
      media query
  ************************/
