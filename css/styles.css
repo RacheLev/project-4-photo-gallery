@@ -44,6 +44,10 @@ input:focus {
  form {
    margin-top: 40px;
  }
+
+ /*************************
+      UL styling
+  ************************/
  #myUL {
    list-style-type: none;
  }
