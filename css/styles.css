@@ -34,6 +34,7 @@ input:focus {
      font-size: 1em;
      color: #717D7E;
 }
+
 ::placeholder {
     color: #BDC3C7;
     opacity: 1; /* Firefox */
@@ -79,6 +80,7 @@ a img{
     justify-content: space-between;
     justify-content: center;
   }
+
   input {
     width: 50%;
 }
