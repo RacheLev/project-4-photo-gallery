@@ -38,6 +38,9 @@ input:focus {
  form {
    margin-top: 40px;
  }
+ #myUL {
+   list-style-type: none;
+ }
 
 ::placeholder {
     color: #BDC3C7;
@@ -50,14 +53,16 @@ input:focus {
      image styling
  ************************/
 a img{
-  margin: 15px;
+  margin: 20px;
   border-radius: 5px;
 }
 
 .img-wrapper {
-  margin-top: 40px;
+  margin-top: 45px;
 }
-
+ul {
+  padding: 0;
+}
 /*************************
      media query
  ************************/
